@@ -6,6 +6,7 @@ namespace Celeste.Mod.StunningHelper;
 
 [CustomEntity("StunningHelper/CustomOffsetLightning")]
 [TrackedAs(typeof(Lightning))]
+[Tracked]
 public class CustomOffsetLightning : Lightning
 {
         public CustomOffsetLightning(EntityData data, Vector2 offset) : base(data, offset)
